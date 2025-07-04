@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--INSTALLATION DE FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/707f08755a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/meteo.js" defer></script>
+    <script src="./script/script.js" defer></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin></script>
+</head>
+
+<body>
+    <header>
+        <h1>Evaluation Javascript</h1>
+    </header>
+    <aside>
+        <div class="cardMeteo" data-aos="zoom-in" data-aos-duration="1000">
+            <h1 class="cardMeteo__titre">Météo du Jour</h1>
+            <!--MISE EN PLACE DE L'ICONE SOLEIL DE FONTAWESOME-->
+            <i class="fa-solid fa-cloud-sun"></i>
+
+            <button>Charger</button>
+        </div>
+    </aside>
+    <main>
+        <h1>Nos Profils près de chez vous</h1>
+        <section class="profils">
+
+        </section>
+        <section id="map">
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
