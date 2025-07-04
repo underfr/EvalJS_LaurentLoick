@@ -193,7 +193,7 @@ Affichage de la map
 -----------------*/
 const map = L.map('map').setView([43.604429, 1.443812], 13);
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 13,
+    maxZoom: 20,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
 
